@@ -1,0 +1,15 @@
+date,forecast_day,forecast_precip_mm,predicted_wl_m,water_level_stage,lstm_predicted_wl_m,lstm_water_level_stage,gru_predicted_wl_m,gru_water_level_stage,runoff_reduction_10pct_predicted_wl_m,runoff_reduction_10pct_water_level_stage,runoff_reduction_20pct_predicted_wl_m,runoff_reduction_20pct_water_level_stage,storage_2_5mm_predicted_wl_m,storage_2_5mm_water_level_stage,storage_5mm_predicted_wl_m,storage_5mm_water_level_stage
+2026-07-29,1,0.00,0.48,Action stage,0.37,Action stage,0.37,Action stage,0.48,Action stage,0.48,Action stage,0.48,Action stage,0.48,Action stage
+2026-07-30,2,0.00,0.47,Action stage,0.36,Action stage,0.37,Action stage,0.47,Action stage,0.47,Action stage,0.47,Action stage,0.47,Action stage
+2026-07-31,3,0.03,0.48,Action stage,0.35,Action stage,0.38,Action stage,0.48,Action stage,0.48,Action stage,0.48,Action stage,0.48,Action stage
+2026-08-01,4,2.82,0.50,Action stage,0.34,Action stage,0.38,Action stage,0.50,Action stage,0.50,Action stage,0.50,Action stage,0.50,Action stage
+2026-08-02,5,6.59,0.51,Action stage,0.35,Action stage,0.39,Action stage,0.51,Action stage,0.51,Action stage,0.50,Action stage,0.50,Action stage
+2026-08-03,6,0.00,0.56,Action stage,0.36,Action stage,0.38,Action stage,0.56,Action stage,0.54,Action stage,0.53,Action stage,0.52,Action stage
+2026-08-04,7,0.00,0.60,Action stage,0.36,Action stage,0.38,Action stage,0.60,Action stage,0.54,Action stage,0.54,Action stage,0.52,Action stage
+2026-08-05,8,2.66,0.59,Action stage,0.35,Action stage,0.38,Action stage,0.59,Action stage,0.54,Action stage,0.55,Action stage,0.53,Action stage
+2026-08-06,9,4.98,0.58,Action stage,0.34,Action stage,0.38,Action stage,0.57,Action stage,0.55,Action stage,0.56,Action stage,0.56,Action stage
+2026-08-07,10,6.85,0.63,Action stage,0.36,Action stage,0.39,Action stage,0.61,Action stage,0.57,Action stage,0.58,Action stage,0.58,Action stage
+2026-08-08,11,4.39,0.78,Action stage,0.38,Action stage,0.40,Action stage,0.72,Action stage,0.65,Action stage,0.59,Action stage,0.58,Action stage
+2026-08-09,12,9.23,0.98,Action stage,0.40,Action stage,0.41,Action stage,0.87,Action stage,0.80,Action stage,0.64,Action stage,0.56,Action stage
+2026-08-10,13,0.21,1.32,Action stage,0.40,Action stage,0.43,Action stage,1.05,Action stage,0.94,Action stage,0.66,Action stage,0.57,Action stage
+2026-08-11,14,0.09,1.16,Action stage,0.40,Action stage,0.43,Action stage,1.02,Action stage,0.92,Action stage,0.64,Action stage,0.57,Action stage
