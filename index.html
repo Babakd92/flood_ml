@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flood Prediction Watershed Selector</title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-width: 320px;
+        color: #1f2933;
+        background: linear-gradient(180deg, rgba(31, 78, 121, 0.10), rgba(45, 122, 120, 0.04) 320px), #f3f7fb;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      main {
+        width: min(1900px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 28px 0 44px;
+      }
+      .selector-bar {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 14px;
+        margin: 0 0 18px;
+        padding: 22px 24px;
+        border: 2px solid #1f4e79;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.92);
+        box-shadow: 0 18px 45px rgba(31, 78, 121, 0.12);
+      }
+      .selector-copy h2 {
+        margin: 0;
+        color: #1f4e79;
+        font-size: 28px;
+        line-height: 1.15;
+      }
+      .selector-copy p {
+        margin: 8px 0 0;
+        color: #334155;
+        font-size: 18px;
+        line-height: 1.4;
+      }
+      .button-group {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 5px;
+        border: 1px solid #d7dee8;
+        border-radius: 8px;
+        background: #ffffff;
+        box-shadow: 0 10px 26px rgba(31, 78, 121, 0.10);
+      }
+      .watershed-button {
+        border: 1px solid transparent;
+        border-radius: 6px;
+        background: transparent;
+        color: #1f4e79;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 13px 22px;
+      }
+      .watershed-button.active {
+        background: #1f4e79;
+        color: #ffffff;
+      }
+      .topbar {
+        display: block;
+        margin-bottom: 16px;
+      }
+      h1 { margin: 0; font-size: 34px; line-height: 1.12; }
+      .main-title {
+        display: block;
+        margin: 0 0 12px;
+        padding: 16px 18px;
+        border: 1px solid #9fb6d1;
+        border-radius: 6px;
+        background: #1f4e79;
+        color: #ffffff;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 1.18;
+      }
+      .eyebrow {
+        margin: 0 0 6px;
+        color: #2d7a78;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+      .watershed-card {
+        border: 1px solid #d7dee8;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.86);
+        padding: 14px;
+      }
+      .watershed-card h2 {
+        margin: 0 0 5px;
+        color: #1f4e79;
+        font-size: 18px;
+      }
+      .watershed-card p {
+        margin: 6px 0 0;
+        color: #64748b;
+        font-size: 14px;
+        line-height: 1.35;
+      }
+      .watershed-frame {
+        display: block;
+        width: 100%;
+        height: 3300px;
+        min-height: 3300px;
+        border: 1px solid #d7dee8;
+        border-radius: 8px;
+        background: #fff;
+        overflow: hidden;
+      }
+      @media (max-width: 900px) {
+        .selector-bar {
+          align-items: stretch;
+          flex-direction: column;
+        }
+        .topbar,
+        .cards { grid-template-columns: 1fr; }
+        .button-group { width: 100%; }
+        .watershed-button { flex: 1; }
+        .watershed-frame {
+          height: 3800px;
+          min-height: 3800px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="topbar" aria-label="Watershed selection">
+        <div>
+          <h1 class="main-title">Live Machine Learning-Based 14-Day Flood Forecast and Climate Comparison Dashboard</h1>
+          <p>Updated 2026-05-22 10:51 AM EDT</p>
+        </div>
+      </section>
+
+      <section class="selector-bar" aria-label="Watershed switcher">
+        <div class="selector-copy">
+          <p class="eyebrow">Select Watershed</p>
+          <h2>View Forecast by Watershed</h2>
+          <p>Choose a watershed to update the forecast, map, tables, and model results.</p>
+        </div>
+        <div class="button-group" role="tablist" aria-label="Watershed dashboards">
+          
+        <button
+          class="watershed-button active"
+          type="button"
+          data-watershed="huron"
+          data-dashboard="huron_index.html">
+          Huron River
+        </button>
+        
+
+        <button
+          class="watershed-button"
+          type="button"
+          data-watershed="sandusky"
+          data-dashboard="sandusky_index.html">
+          Sandusky River
+        </button>
+        
+        </div>
+      </section>
+
+      <section class="cards" aria-label="Watershed forecast summaries">
+        
+        <article class="watershed-card">
+          <h2>Huron River Watershed</h2>
+          <p>Huron River Watershed, Western Lake Erie Basin, Ohio</p>
+          <p><b>Forecast Window</b><br>2026-05-22 to 2026-06-04</p>
+        </article>
+        
+
+        <article class="watershed-card">
+          <h2>Sandusky River Watershed</h2>
+          <p>Sandusky River Watershed, Western Lake Erie Basin, Ohio</p>
+          <p><b>Forecast Window</b><br>2026-05-22 to 2026-06-04</p>
+        </article>
+        
+      </section>
+      <section aria-label="Selected watershed dashboard">
+        <iframe
+          id="watershedFrame"
+          class="watershed-frame"
+          title="Selected watershed dashboard"
+          scrolling="no"
+          src="huron_index.html">
+        </iframe>
+      </section>
+    </main>
+    <script>
+      const watershedButtons = Array.from(document.querySelectorAll(".watershed-button"));
+      const watershedFrame = document.getElementById("watershedFrame");
+
+      function resizeWatershedFrame() {
+        try {
+          const frameDocument = watershedFrame.contentDocument || watershedFrame.contentWindow.document;
+          const body = frameDocument.body;
+          const documentElement = frameDocument.documentElement;
+          const contentHeight = Math.max(
+            body.scrollHeight,
+            body.offsetHeight,
+            documentElement.clientHeight,
+            documentElement.scrollHeight,
+            documentElement.offsetHeight
+          );
+          watershedFrame.style.height = `${contentHeight + 12}px`;
+        } catch (error) {
+          watershedFrame.style.height = "4200px";
+        }
+      }
+
+      watershedFrame.addEventListener("load", () => {
+        resizeWatershedFrame();
+        window.setTimeout(resizeWatershedFrame, 400);
+        window.setTimeout(resizeWatershedFrame, 1400);
+      });
+      window.addEventListener("resize", resizeWatershedFrame);
+
+      watershedButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const selectedWatershed = button.dataset.watershed;
+          watershedButtons.forEach((item) => {
+            item.classList.toggle("active", item.dataset.watershed === selectedWatershed);
+          });
+          watershedFrame.src = button.dataset.dashboard;
+          window.scrollTo({top: 0, behavior: "smooth"});
+        });
+      });
+    </script>
+  </body>
+</html>
