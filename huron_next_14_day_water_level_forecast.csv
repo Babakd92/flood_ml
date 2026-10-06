@@ -1,15 +1,15 @@
 date,forecast_day,forecast_precip_mm,predicted_wl_m,water_level_stage,lstm_predicted_wl_m,lstm_water_level_stage,gru_predicted_wl_m,gru_water_level_stage,runoff_reduction_10pct_predicted_wl_m,runoff_reduction_10pct_water_level_stage,runoff_reduction_20pct_predicted_wl_m,runoff_reduction_20pct_water_level_stage,storage_2_5mm_predicted_wl_m,storage_2_5mm_water_level_stage,storage_5mm_predicted_wl_m,storage_5mm_water_level_stage
-2026-10-05,1,0.00,1.53,Action stage,1.05,Action stage,1.00,Action stage,1.53,Action stage,1.53,Action stage,1.53,Action stage,1.53,Action stage
-2026-10-06,2,0.00,1.57,Action stage,1.04,Action stage,0.97,Action stage,1.57,Action stage,1.57,Action stage,1.57,Action stage,1.57,Action stage
-2026-10-07,3,0.00,1.56,Action stage,1.02,Action stage,0.97,Action stage,1.56,Action stage,1.56,Action stage,1.56,Action stage,1.56,Action stage
-2026-10-08,4,0.00,1.56,Action stage,1.03,Action stage,0.99,Action stage,1.56,Action stage,1.56,Action stage,1.56,Action stage,1.56,Action stage
-2026-10-09,5,0.00,1.56,Action stage,1.02,Action stage,0.94,Action stage,1.56,Action stage,1.56,Action stage,1.56,Action stage,1.56,Action stage
-2026-10-10,6,0.00,1.57,Action stage,1.02,Action stage,0.96,Action stage,1.57,Action stage,1.57,Action stage,1.57,Action stage,1.57,Action stage
-2026-10-11,7,0.27,1.57,Action stage,1.03,Action stage,0.94,Action stage,1.57,Action stage,1.57,Action stage,1.57,Action stage,1.57,Action stage
-2026-10-12,8,0.02,1.56,Action stage,0.99,Action stage,0.91,Action stage,1.56,Action stage,1.56,Action stage,1.57,Action stage,1.57,Action stage
-2026-10-13,9,1.80,1.49,Action stage,1.03,Action stage,0.89,Action stage,1.49,Action stage,1.49,Action stage,1.56,Action stage,1.56,Action stage
-2026-10-14,10,3.50,1.50,Action stage,1.06,Action stage,0.97,Action stage,1.50,Action stage,1.49,Action stage,1.53,Action stage,1.56,Action stage
-2026-10-15,11,0.00,1.55,Action stage,1.03,Action stage,1.01,Action stage,1.55,Action stage,1.52,Action stage,1.54,Action stage,1.57,Action stage
-2026-10-16,12,0.00,1.55,Action stage,0.98,Action stage,0.93,Action stage,1.55,Action stage,1.57,Action stage,1.57,Action stage,1.57,Action stage
-2026-10-17,13,3.02,1.59,Action stage,1.00,Action stage,0.94,Action stage,1.58,Action stage,1.59,Action stage,1.57,Action stage,1.57,Action stage
-2026-10-18,14,14.17,1.74,Action stage,1.21,Action stage,1.16,Action stage,1.72,Action stage,1.71,Action stage,1.65,Action stage,1.71,Action stage
+2026-10-06,1,0.00,1.57,Action stage,1.01,Action stage,1.01,Action stage,1.57,Action stage,1.57,Action stage,1.57,Action stage,1.57,Action stage
+2026-10-07,2,0.00,1.56,Action stage,1.01,Action stage,1.00,Action stage,1.56,Action stage,1.56,Action stage,1.56,Action stage,1.56,Action stage
+2026-10-08,3,0.00,1.56,Action stage,1.01,Action stage,0.99,Action stage,1.56,Action stage,1.56,Action stage,1.56,Action stage,1.56,Action stage
+2026-10-09,4,0.00,1.56,Action stage,1.01,Action stage,0.99,Action stage,1.56,Action stage,1.56,Action stage,1.56,Action stage,1.56,Action stage
+2026-10-10,5,0.00,1.57,Action stage,0.99,Action stage,0.98,Action stage,1.57,Action stage,1.57,Action stage,1.57,Action stage,1.57,Action stage
+2026-10-11,6,22.53,2.08,Action stage,1.32,Action stage,1.18,Action stage,1.94,Action stage,1.83,Action stage,1.91,Action stage,1.80,Action stage
+2026-10-12,7,8.18,2.83,Action stage,1.91,Action stage,1.66,Action stage,2.71,Action stage,2.40,Action stage,2.60,Action stage,2.18,Action stage
+2026-10-13,8,8.00,2.79,Action stage,1.67,Action stage,1.48,Action stage,2.55,Action stage,2.44,Action stage,2.42,Action stage,1.92,Action stage
+2026-10-14,9,1.82,2.43,Action stage,1.46,Action stage,1.39,Action stage,2.15,Action stage,2.04,Action stage,2.03,Action stage,1.80,Action stage
+2026-10-15,10,0.00,2.08,Action stage,1.31,Action stage,1.22,Action stage,1.96,Action stage,1.89,Action stage,1.88,Action stage,1.69,Action stage
+2026-10-16,11,0.82,1.96,Action stage,1.19,Action stage,1.14,Action stage,1.82,Action stage,1.80,Action stage,1.82,Action stage,1.62,Action stage
+2026-10-17,12,55.50,2.97,Action stage,2.26,Action stage,2.37,Action stage,2.98,Action stage,2.92,Action stage,2.89,Action stage,3.11,Action stage
+2026-10-18,13,31.25,4.16,Action stage,4.43,Minor flood stage,4.50,Minor flood stage,4.19,Action stage,4.19,Action stage,4.22,Action stage,4.28,Minor flood stage
+2026-10-19,14,0.00,3.83,Action stage,3.33,Action stage,3.09,Action stage,3.79,Action stage,3.70,Action stage,3.90,Action stage,3.82,Action stage
